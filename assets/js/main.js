@@ -263,7 +263,7 @@
           dot.classList.add('dot');
 
           // Posizionamento casuale
-          const x = Math.random() * window.innerWidth;
+          const x = Math.random() * (window.innerWidth - 200);
           const y = Math.random() * window.innerHeight;
           dot.style.left = `${x}px`;
           dot.style.top = `${y}px`;
